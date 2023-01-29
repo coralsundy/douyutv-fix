@@ -8,7 +8,7 @@ except ImportError:
 
 class APIHelper:
     def __init__(self):
-        self.baseUrl = "http://127.0.0.1/v1/douyu"
+        self.baseUrl = "http://movies.coralsundy.com:8080/v1/douyu"
 
     def request(self, action, param=None):
         reqUrl = self.baseUrl + action
